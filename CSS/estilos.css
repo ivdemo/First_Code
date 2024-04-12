@@ -1,4 +1,102 @@
 .seccion1 {
     text-align: center;
-    background-image: ;
+    background-image: url(../IMG/header.jpg);
+    background-size: cover;
 }
+
+.titulo {
+    font-size: 50px;
+}
+
+.subtitulo {
+    font-size: 25px;
+}
+
+.img {
+    width: 25%;
+    margin: 3%;
+}
+
+.imagenes {
+    text-align: center;
+}
+
+.feedback {
+    background-color: rgb(50, 176, 163);
+    text-align: center;
+    color: white;
+    padding: 1px;
+}
+
+.subfeedback {
+    font-size: 25px;
+}
+
+.tituloinfo {
+    font-size: 25px;
+}
+
+.info {
+    display: flex;
+}
+
+.col2{
+    width: 50%;
+}
+
+.col2-1{
+    width: 25%;
+}
+
+.fondonegro {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.textoblanco {
+    color: white;
+}
+
+.a2021-2022 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0%;
+    padding: 1%;
+}
+
+.mapa {
+    height: 400px;
+    width: 400 px;
+}
+
+.barcelona {
+    width: 50%;
+}
+
+@media screen and (max-width: 600px){
+    .col2{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .info {
+      display: block; 
+    }
+    
+    .mapa {
+        height: 350px;
+        width: 530px;
+    }
+
+    .img {
+        width: 40%;
+        margin: 3%;
+    }
+
+    .col2-1{
+        width: 50%;
+    }
+
+  }
